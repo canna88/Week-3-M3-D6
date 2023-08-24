@@ -1,0 +1,246 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+#navbar {
+  background-color:darkblue;
+  height: 50px;
+}
+
+#navbar #mob-div {
+    display: flex;
+}
+
+#navbar #test {
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+
+}
+
+#navbar .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+#navbar .circle {
+    width: 20px;
+    height: 20px;
+    background-color: green;/* Colore del cerchio */
+    border: 3px solid #fff; /* Bordo bianco del cerchio */
+    border-radius: 50%; /* Per ottenere la forma di un cerchio */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#navbar .image-bell-container {
+    position: relative;
+    display: flex;
+    background-color: lightgray;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#navbar .image-bell-container #bell {
+    width: 50%;
+}
+#navbar .circle-bell {
+    width: 20px;
+    height: 20px;
+    background-color: purple;/* Colore del cerchio */
+    border: 3px solid #fff; /* Bordo bianco del cerchio */
+    border-radius: 50%; /* Per ottenere la forma di un cerchio */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#navbar #drop-div-3 img {
+    height: 20px;
+}
+
+#navbar #drop-div img #test {
+    height: 50px;
+    width: 50px;
+}
+
+#navbar #drop-div-2 img {
+    height: 20px;
+}
+
+#navbar img {
+    height: 50px;
+    width: auto;
+    border-radius: 50px;
+  }
+
+#jumbotron {
+  background-color: rgb(117, 80, 254);
+  }
+
+#jumbotron-2 {
+  background-color: rgb(255, 255, 255);
+}
+
+#reccomend {
+  padding-top: 50px;
+  background-color: rgb(245, 244, 248);
+  padding-bottom: 50px;
+
+}
+
+#popular {
+  background-color: rgb(245, 244, 248);
+  padding-bottom: 50px;
+}
+
+#trending {
+  background-color: rgb(245, 244, 248);
+  padding-bottom: 50px;
+
+}
+
+#footer {
+  background-color: rgb(245, 244, 248);
+  border-top: 1px solid rgba(179, 177, 177, 0.315);
+}
+
+
+
+.button-right{
+    justify-content: right;
+    width: 7%;
+}
+
+.button-left{
+    justify-content: left;
+    width: 7%;
+}
+
+.button-right div, .button-left div{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(117, 80, 254);
+    border: 2px solid lightgray;
+    border-radius: 50%;
+}
+
+
+#jumbotron h3 {
+  color: white;
+  font-weight: bold;
+}
+
+#jumbotron h6 {
+  color:lightgray
+}
+
+#jumbotron #button-1 {
+  background-color: rgba(26, 203, 152);
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+
+#jumbotron #button-2 {
+  background-color: rgba(255, 255, 255);
+  font-weight: bold;
+  color: black;
+  border: none;
+
+}
+
+#jumbotron-2 .circle-2 {
+  color: rgba(255, 170, 70);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 238, 218);
+  border-radius: 50%; /* Per ottenere la forma di un cerchio */
+}
+
+#jumbotron-2 .circle-2 img {
+  width: 50%;
+  height: 50%;
+
+}
+
+h6  {
+  color:rgb(167, 167, 167);
+  margin: 0px;
+}
+
+.rate {
+  color:rgb(255, 170, 70);
+  font-weight: bold;
+}
+
+.rate-2 {
+  color:rgb(187, 186, 186);
+}
+
+.price-val .price{
+  color: black;
+  font-weight: bold;
+  font-size:larger
+}
+
+.price-val .price-2 {
+  color:rgb(187, 186, 186);
+  text-decoration: line-through;
+}
+
+.foot img {
+  width: 40px;
+  border-radius: 50%;
+  border:none;
+}
+
+.ratings {
+  margin-bottom: 20px;
+}
+
+.time-disp{
+  display: flex;
+
+}
+
+.foot{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  
+}
+
+@media (max-width: 500px) {
+  h5.card-title  {
+    font-size: 16px; /* Imposta la dimensione del testo per la visualizzazione mobile */
+  }
+  .time-disp {
+    flex-direction: column;
+
+
+  }
+  .ratings-resp {
+    flex-direction: column;
+  }
+
+  .ratings {
+    margin-bottom: 0px;
+  }
+  .rate {
+    margin-bottom: 10px;
+  }
+  .rate-2 {
+    margin-bottom: 20px;
+  }
+  .foot {
+    flex-direction: column;
+  }
+
+
+}
