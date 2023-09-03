@@ -216,15 +216,43 @@ h6  {
   
 }
 
+.carousel-inner, .carousel-item {
+  overflow: visible;
+}
+
+.card {
+  transition: transform .2s;
+}
+
+
+.card:hover {
+  z-index: 1;
+  transition: transform .2s;
+  transform: scale(1.2);
+}
+
+.bookmark-div {
+  position: relative;
+}
+
+.bi.bi-bookmark-fill {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.bookmark-div:hover .bi.bi-bookmark-fill{
+  opacity: 1;
+}
+
 @media (max-width: 500px) {
   h5.card-title  {
     font-size: 16px; /* Imposta la dimensione del testo per la visualizzazione mobile */
   }
   .time-disp {
     flex-direction: column;
-
-
   }
+
   .ratings-resp {
     flex-direction: column;
   }
